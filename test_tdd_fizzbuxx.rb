@@ -24,7 +24,7 @@ class TestTddFizzBuzz < Minitest::Test
     end
 
 	def test_assert_fifth_position_is_mines
-		assert_equal("mines", fizzbuzz()[4])
+		assert_equal("minds", fizzbuzz()[4])
 	end
 
 
