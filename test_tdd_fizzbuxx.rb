@@ -33,7 +33,8 @@ class TestTddFizzBuzz < Minitest::Test
 
 	def test_assert_multiples_of_3_returns_mined
 		assert_equal("mined", fizzbuzz()[5])
+		assert_equal("mined", fizzbuzz()[32])
 	end
-	
+
 
 end
